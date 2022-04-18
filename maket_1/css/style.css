@@ -1,0 +1,132 @@
+html{
+	background-color: #edede8;
+	font-family: sans-serif;
+}
+
+.wrapper{
+	width: 890px;
+	margin: 0px auto;
+	display: flex;
+}
+
+/* menu shapka */
+
+header{
+	background-color: #F8AA03;
+}
+
+#menu{
+	min-height: 50px;
+	align-items: center;
+	display: flex;
+}
+
+#menu a{
+	margin-left:20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#menu a:hover, #menu a.active{
+	text-decoration: underline;
+}
+
+/* content */
+
+main{
+	display: block;
+}
+
+main{
+	width: 530px;
+	background-color: #fff;
+	padding: 20px 10px 20px 20px;
+	text-align: justify;
+	box-sizing: border-box;
+}
+
+main h1{
+	font-size: 21px;
+}
+
+main h2{
+	font-style: 19px;
+	margin-top: 20px;
+}
+
+main p{
+margin: 10px 0px;
+}
+
+/* таблица */
+.price{
+margin-top: 10px;
+width: 500px;
+}
+
+/*  */
+
+.price td, .price th{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.price th{
+	background-color: #ebebeb;
+}
+
+table{
+	display: table;
+	border-collapse: separate;
+	box-sizing: border-box;
+	text-indent: inherit;
+	border-spacing: 2px;
+	border-color: grey;
+}
+
+/* правый бар */
+
+body, p, h1, h2, ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+section{
+	display: block;
+}
+
+
+aside{
+	display: block;
+}
+aside{
+	
+	width: 360px;
+	background-color: #fff;
+	padding: 20px 20px 20px 10px;
+	box-sizing: border-box;
+}
+aside h2{
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+aside ul{
+	list-style-type: none;
+}
+
+aside p, aside li{
+	font-size: 16px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+/* подвал */
+footer {
+	display: flex;
+	color: #fff;
+	min-height: 75px;
+	align-items: center;
+	justify-content: center;
+	background-color: #f8aa03;
+}
